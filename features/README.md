@@ -59,3 +59,12 @@ TA <--> TI
 <br>
 
 <image src="../public/type-annotations.png" width="800px" />
+
+<br>
+<br>
+
+### any
+
+-   A type, just as 'string' or 'boolean' are
+-   Means TS has no idea what this is - can't check for correct property references
+-   Avoid variables with 'any' at all costs
