@@ -68,3 +68,25 @@ TA <--> TI
 -   A type, just as 'string' or 'boolean' are
 -   Means TS has no idea what this is - can't check for correct property references
 -   Avoid variables with 'any' at all costs
+
+<br>
+<br>
+
+## Functions
+
+### Type annotations for functions
+
+-   Code we add to telll TypeScript what type of arguments a function will receive and whay type of values it will return
+
+### Type inference for functions
+
+-   TypeScript tries to figure out what type of value a function will return
+
+<br>
+<br>
+
+## Arrays
+
+### Typed Arrays
+
+-   Arrays where each element is some consistent type of value
