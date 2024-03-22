@@ -61,7 +61,6 @@ TA <--> TI
 <image src="../public/type-annotations.png" width="800px" />
 
 <br>
-<br>
 
 ### any
 
@@ -90,3 +89,24 @@ TA <--> TI
 ### Typed Arrays
 
 -   Arrays where each element is some consistent type of value
+
+### Why do we care?
+
+-   TS can do type inference when extracting values from an array
+-   TS can prevent us from adding incompatible values to the array
+-   We can get help with `map`, `forEach`, `reduce` functions
+-   Flexible - arrays can still contain multiple different types
+
+### Where to use typed arrays?
+
+-   Any time we need to represent a collection of records with some arbitrary sort order
+
+<br>
+<br>
+
+## Tuples
+
+### Tuple
+
+-   Array-like structure where each element represents some property of a record
+-   We have what looks like an array and we put in our property values into that array in a very specific order
